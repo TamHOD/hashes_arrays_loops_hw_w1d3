@@ -7,29 +7,29 @@ class My_Functions < MiniTest::Test
   # Write a function that takes has two parameters, array1 and array2
   # It should return the sum of the array lengths
 
-  def test_add_length_of_arrays
-    # arrange
-    citrus_fruits = [ "lemon", "orange" ]
-    berries = [ "strawberry", "blackberry", "raspberry" ]
-    # act
-    result = add_array_lengths( citrus_fruits, berries )
-    # assert
-    assert_equal( 5, result )
-  end
+  # def test_add_length_of_arrays
+  #   # arrange
+  #   citrus_fruits = [ "lemon", "orange" ]
+  #   berries = [ "strawberry", "blackberry", "raspberry" ]
+  #   # act
+  #   result = add_array_lengths( citrus_fruits, berries )
+  #   # assert
+  #   assert_equal( 5, result )
+  # end
 
   ################################################################
 
-  # # Write a function that has a parameter named numbers
-  # # It should return the sum value of an array passed as the argument
-  #
-  # def test_sum_array
-  #   # arrange
-  #   numbers = [ 1, 2, 3, 4, 5 ]
-  #   # act
-  #   result = sum_array( numbers )
-  #   # assert
-  #   assert_equal( 15, result )
-  # end
+  # Write a function that has a parameter named numbers
+  # It should return the sum value of an array passed as the argument
+
+  def test_sum_array
+    # arrange
+    numbers = [ 1, 2, 3, 4, 5 ]
+    # act
+    result = sum_array( numbers )
+    # assert
+    assert_equal( 15, result )
+  end
 
   ################################################################
 
